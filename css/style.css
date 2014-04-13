@@ -1,0 +1,184 @@
+/* line 17, ../../../../../../Users/tak723sio/rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/tak723sio/rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/tak723sio/rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/tak723sio/rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/tak723sio/rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/tak723sio/rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/tak723sio/rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/tak723sio/rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/tak723sio/rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../sass/style.scss */
+html, body {
+  color: #3c3c3c;
+}
+
+/* line 15, ../sass/style.scss */
+header {
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: solid 2px #59bfc0;
+}
+/* line 19, ../sass/style.scss */
+header div#logo {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* line 22, ../sass/style.scss */
+header div#logo img {
+  width: 300px;
+  height: auto;
+}
+
+/* line 29, ../sass/style.scss */
+nav#gnavi ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+}
+/* line 31, ../sass/style.scss */
+nav#gnavi ul li {
+  width: 33%;
+  height: 50px;
+  line-height: 50px;
+}
+/* line 35, ../sass/style.scss */
+nav#gnavi ul li a {
+  display: inline-block;
+  width: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  text-indent: 2em;
+  font-size: 25px;
+}
+/* line 43, ../sass/style.scss */
+nav#gnavi ul li:nth-child(1) {
+  background-color: #3498db;
+}
+/* line 46, ../sass/style.scss */
+nav#gnavi ul li:nth-child(2) {
+  background-color: #f39c12;
+}
+/* line 49, ../sass/style.scss */
+nav#gnavi ul li:nth-child(3) {
+  width: 34%;
+  background-color: #bababa;
+}
+
+/* line 57, ../sass/style.scss */
+#wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* line 61, ../sass/style.scss */
+#wrapper ul#list {
+  display: inline-block;
+}
+/* line 63, ../sass/style.scss */
+#wrapper ul#list li {
+  float: left;
+  width: 548px;
+  height: 218px;
+  margin: 10px 0;
+  padding: 15px;
+  border: solid 1px #3c3c3c;
+}
+/* line 71, ../sass/style.scss */
+#wrapper ul#list li:nth-child(odd) {
+  clear: both;
+  margin-right: 20px;
+}
+/* line 75, ../sass/style.scss */
+#wrapper ul#list li div#thumbnail {
+  float: left;
+  width: 218px;
+  height: 218px;
+  line-height: 218px;
+  text-align: center;
+  font-size: 25px;
+  background-color: #aaa;
+}
+/* line 84, ../sass/style.scss */
+#wrapper ul#list li table {
+  display: inline-block;
+  margin-left: 20px;
+}
+/* line 87, ../sass/style.scss */
+#wrapper ul#list li table tr {
+  height: 29px;
+  line-height: 29px;
+  border-bottom: solid 1px #aaa;
+}
+/* line 91, ../sass/style.scss */
+#wrapper ul#list li table tr th {
+  width: 100px;
+}
+/* line 94, ../sass/style.scss */
+#wrapper ul#list li table tr td {
+  width: 200px;
+}
+
+/* line 104, ../sass/style.scss */
+footer {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #aaaaaa;
+}
