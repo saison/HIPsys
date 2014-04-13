@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+//compass import
+@import "compass/reset";
+@import "compass";
+
+//変数宣言
+$textColor:#3c3c3c;
+
+html,body{
+  color:$textColor;
+}
+
+//header
+header{
+  width:100%;
+  margin-top:10px;
+  border-bottom: solid 2px #59bfc0;
+  div#logo{
+    width:1200px;
+    margin: 0 auto;
+    img{
+      width: 300px;
+      height: auto;
+    }
+  }
+}
+nav#gnavi{
+  ul{
+    @include display-box;
+    li{
+      width:33%;
+      height:50px;
+      line-height: 50px;
+      a{
+        display: inline-block;
+        width:100%;
+        color: #ffffff;
+        text-decoration: none;
+        text-indent: 2em;
+        font-size:25px;
+      }
+      &:nth-child(1){
+        background-color: #3498db;
+      }
+      &:nth-child(2){
+        background-color: #f39c12;
+      }
+      &:nth-child(3){
+        width:34%;
+        background-color: #bababa;
+      }
+    }
+  }
+}
+//wrapper
+#wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  //kadai.php syukatsu.php
+  ul#list{
+    display: inline-block;
+    li{
+      $heightSize: 250px - 30px - 2px;
+      float: left;
+      width:580px - 30px - 2px;
+      height:$heightSize;
+      margin: 10px 0;
+      padding: 15px;
+      border:solid 1px $textColor;
+      &:nth-child(odd){
+        clear: both;
+        margin-right:20px;
+      }
+      div#thumbnail{
+        float: left;
+        width:$heightSize;
+        height:$heightSize;
+        line-height:$heightSize;
+        text-align: center;
+        font-size:25px;
+        background-color: #aaa;
+      }
+      table{
+        display: inline-block;
+        margin-left:20px;
+        tr{
+          height:30px - 1px;
+          line-height: 30px - 1px;
+          border-bottom: solid 1px #aaa;
+          th{
+            width: 100px;
+          }
+          td{
+            width:200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//footer
+footer{
+  width: 100%;
+  height:40px;
+  line-height:40px;
+  text-align: center;
+  background-color:#aaaaaa;
+}
